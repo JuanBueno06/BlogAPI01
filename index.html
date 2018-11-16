@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Blog-API</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/animate-custom.css" /> -->
+    </head>
+    <body>
+        <div class="container">
+            <section>				
+                <div id="container" >
+                   
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="script" autocomplete="on">
+                                <h1>Blog API-Login</h1> 
+                                <p> 
+                                    <label for="username"> Correo Electronico o Nombre de Usuario </label>
+                                    <input placeholder="Usuario"/>
+                                </p>
+                                <p> 
+                                    <label for="password" > Tu contrasena </label>
+                                    <input placeholder="Contrasena" /> 
+                                </p>
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping">Mantenme conectado</label>
+								</p>
+                                <p class="login button"> 
+                                    <input type="submit" value="Login" /> 
+								</p>
+                                <p class="change_link">
+									Aun no te has registrado ?
+									<a href="#toregister" class="to_register">+ Registrarte</a>
+								</p>
+							</form>
+                        </div>
+
+                        <div id="register" class="animate ">
+                            <form  action="script" autocomplete="on"> 
+                                <h1> Blog API-Registrate </h1> 
+                                <p> 
+                                    <label>Nombre de Usuario</label>
+                                    <input placeholder="Nombre de Usuario" />
+                                </p>
+                                <p> 
+                                    <label> Correo Electronico</label>
+                                    <input placeholder="Correo Electronico"/> 
+                                </p>
+                                <p> 
+                                    <label>Tu contrasena </label>
+                                    <input placeholder="Contrasena"/>
+                                </p>
+                                <p> 
+                                    <label>Por favor, confirme su contrasena </label>
+                                    <input placeholder="Contrasena"/>
+                                </p>
+                                <p class="signin button"> 
+									<input type="submit" value="Registrate"/> 
+								</p>
+                                <p class="change_link">  
+									Ya estas registrado ?
+									<a href="#tologin" class="to_register"> Accesar </a>
+								</p>
+                            </form>
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+    </body>
+</html>
